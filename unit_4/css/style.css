@@ -10,6 +10,7 @@ h1 {
 	margin-bottom: 0px;
 	font-weight: normal;
 	font-family: 'Arima Madurai', cursive;
+	line-height: 1.3em;
 }
 p {
 	font-size: 18px;
@@ -28,6 +29,7 @@ ul {
 	margin-top: 0px;
 	margin-bottom: 10px;
 	font-family: 'Arima Madurai', cursive;
+	line-height: 1em;
 }
 #center {
 	display: block;
