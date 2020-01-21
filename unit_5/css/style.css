@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+body {
+	background-color: #CFCDFF;
+	font-family: Garamond, san-serif;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+main {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+}
+h1 {
+	text-align: center;
+	font-size: 48px;
+	font-weight: normal;
+	font-family: 'Arima Madurai', cursive;
+	line-height: 1.3em;
+}
+p {
+	font-size: 18px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+ul {
+	font-size:16px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	list-style: none;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Arima Madurai', cursive;
+	line-height: 1em;
+}
+#center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.center {
+	text-align: center;
+}
+#contact {
+	font-size: 12px;
+	text-align: right;
+}
