@@ -33,10 +33,13 @@ a:hover {
 main {
 	border: 1px black solid;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 aside {
 	border: 1px black solid;
+	padding: 5em;
 }
 
 footer{
@@ -55,15 +58,17 @@ h1 {
 	font-size: 48px;
 	font-weight: normal;
 	font-family: 'Arima Madurai', cursive;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 
 h2 {
 	text-align: center;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: normal;
 	font-family: 'Arima Madurai', cursive;
 	line-height: 1.3em;
+	margin-right: auto;
+	margin-left: auto;
 }
 p {
 	font-size: 18px;
@@ -76,6 +81,7 @@ ul {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	list-style: none;
 }
+
 
 #two_column {
 	border: 1px black solid;
@@ -112,7 +118,7 @@ ul {
 	text-align: center;
 	font-size: 28px;
 	font-family: 'Arima Madurai', cursive;
-	line-height: 1em;
+	line-height: .1em;
 }
 #center {
 	display: block;
@@ -124,6 +130,7 @@ ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 2.5em;
 	width: 50%;
 }
 #contact {
@@ -131,3 +138,32 @@ ul {
 	font-size: 12px;
 	text-align: right;
 }
+}
+
+@media screen and (max-width: 627px) and (min-width: 590px){
+	img{
+		display: none;
+	}
+}
+
+@media (max-width: 590px) {
+	#left, #right {
+		float: none;
+		width: auto;
+	}
+	img#image {
+		display: none;
+	}
+	p {
+		font-size: 1em;
+
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	p#slogan {
+		font-size: 1em;
+	}
