@@ -138,15 +138,8 @@ ul {
 	font-size: 12px;
 	text-align: right;
 }
-}
 
-@media screen and (max-width: 627px) and (min-width: 590px){
-	img{
-		display: none;
-	}
-}
-
-@media (max-width: 590px) {
+@media (max-width: 627px) {
 	#left, #right {
 		float: none;
 		width: auto;
